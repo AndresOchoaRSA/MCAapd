@@ -6,7 +6,7 @@ MCAapd provides a single function to perform Multiple Correspondence Analysis in
 Repository: https://github.com/AndresOchoaRSA/MCAapd
 
 ## Minimal Example
-
+You need to download all the repository, then open the MCAapd.Rproj now you can reproduce the next outputs
 
 ```R
 # load the function
