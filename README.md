@@ -13,5 +13,5 @@ You need to download all the repository, then open the MCAapd.Rproj now you can 
 source("R/MCAapd.R")
 # get the information
 x <- read.table("data/With10NA.txt")
-MCAapd(x)
+mca <- MCAapd(x)
 ```
