@@ -6,10 +6,5 @@
 *.Rproj
 .Ruserdata
 # Vignettes
-vignettes/*.bbl
-vignettes/*.log
-vignettes/*.md
-vignettes/*.synctex.gz
-vignettes/*.tex
 revdep
 pkgdown
