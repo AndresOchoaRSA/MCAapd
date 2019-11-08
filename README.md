@@ -13,8 +13,15 @@ You need to download all the repository, then open the MCAapd.Rproj now you can 
 source("R/MCAapd.R")
 # get the information
 x <- read.table("data/With10NA.txt")
-res.mca <- MCAapd(x)
-res.mca$L ##
+res.mca.apd <- MCAapd(x)
+res.mca.apd$L ## eigen values in R^p
+res.mca.apd$Up ## eigen vectos in R^p
+res.mca.apd$Tp ## coordenates for the individuals
 
+## Factorial plane graph
+install.packages("ade4")
+library(ade4)
+s.label(res.mca.apd$Tp[,2:3],add.plot = FALSE,boxes=FALSE)
+s.label(res.mca.apd$Tn[,2:3],add.plot = TRUE)
 
 ```
