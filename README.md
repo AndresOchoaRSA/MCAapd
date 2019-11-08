@@ -16,7 +16,7 @@ x <- read.table("data/With10NA.txt")
 res.mca.apd <- MCAapd(x)
 res.mca.apd$L ## eigen values in R^p
 res.mca.apd$Up ## eigen vectos in R^p
-res.mca.apd$Tp ## coordenates for the individuals
+res.mca.apd$Tp ## coordinates for the individuals
 
 ## Factorial plane graph
 install.packages("ade4")
