@@ -14,7 +14,7 @@ source("R/MCAapd.R")
 # get the information
 x <- read.table("data/With10NA.txt")
 res.mca.apd <- MCAapd(x)
-res.mca.apd$L ## eigen values in R^p
+res.mca.apd$Lp ## eigen values in R^p
 res.mca.apd$Up ## eigen vectos in R^p
 res.mca.apd$Tp ## coordinates for the individuals
 
